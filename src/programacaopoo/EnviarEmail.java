@@ -14,7 +14,7 @@ public class EnviarEmail {
         
         // Email para realizar o envior
         String Meuemail2="Anderson21fonseca@gmail.com";
-        // senha
+        // senha para poder enviar o emal
         String senha="21201411Abc";
         
         SimpleEmail  email  = new SimpleEmail();
