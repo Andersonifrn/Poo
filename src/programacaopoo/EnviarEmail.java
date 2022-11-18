@@ -1,4 +1,4 @@
-/ Essa classe vai fazer a realização de envior de email
+/* Essa classe vai fazer a realização de envior de email
  */
 package programacaopoo;
 
@@ -12,8 +12,9 @@ import org.apache.commons.mail.SimpleEmail;
 public class EnviarEmail {
     public static void main(String[] args) {
         
-       
+        // Email para realizar o envior
         String Meuemail2="Anderson21fonseca@gmail.com";
+        // senha
         String senha="21201411Abc";
         
         SimpleEmail  email  = new SimpleEmail();
